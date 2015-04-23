@@ -11,5 +11,5 @@ describe('Array#anagram_finder') do
 
 it('returns pithy response to input') do
   expect((["cat", "act", "movie", "tac"]).anagram_finder()).to(eq("Your amazing anagram matches are: act, tac"))
-end
+  end
 end
